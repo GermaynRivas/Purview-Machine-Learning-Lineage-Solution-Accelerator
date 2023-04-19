@@ -6,34 +6,36 @@ languages:
 products:
 - microsoft-purview
 - azure-synapse-analytics
+- OpenAI
 - azure-machine-learning
 ---
 ![Purview Machine Learning Lineage Solution Accelerator](./Deployment/img/PurviewMLLineageSolutionAccelerator.PNG)
 
 # Purview Machine Learning Lineage Solution Accelerator 
 
-Microsoft Purview is a unified data governance service that helps you manage and govern data across different sources.
+Microsoft Purview es un servicio unificado de gobernanza de datos que le ayuda a gestionar y gobernar datos de distintas fuentes.
 
-Machine Learning project life cycle involves many steps to transform raw data into insights. This process usually requires individuals with different roles/skillsets across multiple teams to collaborate effectively. Microsoft Purview helps simplify this complex process by providing an end-to-end lineage of ML entities and processes to enable better collaboration, auditing and debugging capabilities.
+El ciclo de vida de un proyecto de aprendizaje automático implica muchos pasos para transformar los datos sin procesar en información. Este proceso suele requerir la colaboración eficaz de personas con diferentes funciones y habilidades en varios equipos. Microsoft Purview ayuda a simplificar este complejo proceso proporcionando un linaje integral de entidades y procesos de ML para permitir mejores capacidades de colaboración, auditoría y depuración.
 
-This solution accelerator helps developers with the resources needed to build an end-to-end lineage in Purview for Machine Learning scenarios.
+Este acelerador de soluciones ayuda a los desarrolladores con los recursos necesarios para crear un linaje de extremo a extremo en Purview para escenarios de aprendizaje automático.
 
-## Sample Credit Risk Prediction ML Process Flow
+## Ejemplo de flujo de proceso ML de predicción del riesgo de crédito
 ![Purview Machine Learning Lineage Introduction](./Deployment/img/PurviewMLLineageIntroduction.PNG)
 
-## Purview ML Process Lineage
+## Linaje del proceso Purview ML
 ![ML Lineage](./Deployment/img/MLLineageScreenshot.PNG)
 
-## Prerequisites
-To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/). While not required, a prior understanding of Microsoft Purview, Azure Synapse Analytics and Machine Learning will be helpful.
+## Requisitos previos
+Para utilizar este acelerador de soluciones, necesitará acceso a una [Azure subscription](https://azure.microsoft.com/free/). Aunque no es necesario, será útil tener conocimientos previos de Microsoft Purview, Azure Synapse Analytics y Machine Learning.
 
 For additional training and support, please see:
 1. [Microsoft Purview](https://azure.microsoft.com/en-us/services/purview/) 
-2. [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/) 
-3. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) 
+2. [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/)
+3. [OpenAI](https://platform.openai.com/examples)
+4. [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) 
 
-## Getting Started
-Start by deploying the required resources to Azure. The button below will deploy Microsoft Purview, Azure Synapse Analytics, Azure Machine Learning and its related resources:
+## Primeros pasos
+Comience desplegando los recursos necesarios en Azure. El botón siguiente desplegará Microsoft Purview, Azure Synapse Analytics, Azure Machine Learning y sus recursos relacionados:
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FPurview-Machine-Learning-Lineage-Solution-Accelerator%2Fmain%2FDeployment%2Fdeploy.json)
 
